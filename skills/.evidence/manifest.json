@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "dftd4-build-and-install",
+    "dftd4-reference",
+    "dftd4-inputs-and-modeling",
+    "dftd4-recipe",
+    "dftd4-requirements",
+    "dftd4-general"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/dftd4-build-and-install.md",
+    "skills/.evidence/dftd4-reference.md",
+    "skills/.evidence/dftd4-inputs-and-modeling.md",
+    "skills/.evidence/dftd4-recipe.md",
+    "skills/.evidence/dftd4-requirements.md",
+    "skills/.evidence/dftd4-general.md"
+  ]
+}

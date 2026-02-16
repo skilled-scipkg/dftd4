@@ -1,0 +1,99 @@
+{
+  "compiled_package_id": "dftd4",
+  "evidence": {
+    "core_skills": [
+      "dftd4-build-and-install",
+      "dftd4-reference",
+      "dftd4-inputs-and-modeling",
+      "dftd4-recipe",
+      "dftd4-requirements",
+      "dftd4-general"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/dftd4-build-and-install.md",
+      "skills/.evidence/dftd4-reference.md",
+      "skills/.evidence/dftd4-inputs-and-modeling.md",
+      "skills/.evidence/dftd4-recipe.md",
+      "skills/.evidence/dftd4-requirements.md",
+      "skills/.evidence/dftd4-general.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc",
+      "man"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Top-level docs files exist outside docs dirs: README.md and ford.md.",
+      "Python tests are co-located with Python sources under python/dftd4 (test_*.py).",
+      "Generator script patched to fix Python f-string syntax in doc/source map renderers."
+    ],
+    "package_name": "dftd4",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "app",
+      "include",
+      "python",
+      "src"
+    ],
+    "test_dirs": [
+      "test",
+      "python/dftd4"
+    ],
+    "tutorial_dirs": [
+      "app",
+      "assets/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftd4-dftd4",
+  "validation": {
+    "core_skills_checked": [
+      "dftd4-build-and-install",
+      "dftd4-inputs-and-modeling",
+      "dftd4-general",
+      "dftd4-reference",
+      "dftd4-requirements",
+      "dftd4-advanced-topics"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftd4-dftd4/skills/dftd4-requirements/references/source_map.md: no valid source-code entry links were found."
+    ],
+    "index_skills": [
+      "dftd4-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 56,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}
